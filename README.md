@@ -39,7 +39,7 @@ Push to GitHub → APK auto builds and appears in **Actions → Artifacts**.
 4. Run → Run 'app' or Build → Build Bundle(s)/APK(s)
 
 ## Server
-Default: `http://5.175.140.94:3000` (same as web project)
+Default: `http://5.83.134.223:3000` (same as web project)
 Can be changed in Settings screen.
 
 ## Permissions Required

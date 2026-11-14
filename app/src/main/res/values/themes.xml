@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PrimeXGateway" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/indigo_600</item>
+        <item name="colorPrimaryVariant">@color/slate_950</item>
+        <item name="colorOnPrimary">@color/slate_100</item>
+        <item name="colorSecondary">@color/violet_500</item>
+        <item name="colorOnSecondary">@color/slate_100</item>
+        <item name="colorSurface">@color/slate_900</item>
+        <item name="colorOnSurface">@color/slate_200</item>
+        <item name="android:colorBackground">@color/slate_950</item>
+        <item name="android:windowBackground">@color/slate_950</item>
+        <item name="android:statusBarColor">@color/slate_950</item>
+        <item name="android:navigationBarColor">@color/slate_900</item>
+        <item name="android:textColorPrimary">@color/slate_100</item>
+        <item name="android:textColorSecondary">@color/slate_400</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <!-- Bottom Nav -->
+        <item name="bottomNavigationStyle">@style/BottomNavStyle</item>
+    </style>
+
+    <style name="Theme.PrimeXGateway.Splash" parent="Theme.PrimeXGateway">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/slate_900</item>
+        <item name="itemIconTint">@color/bottom_nav_colors</item>
+        <item name="itemTextColor">@color/bottom_nav_colors</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="CardStyle" parent="">
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/indigo_600</item>
+        <item name="android:textColor">@color/slate_100</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="OutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/slate_700</item>
+        <item name="android:textColor">@color/slate_400</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

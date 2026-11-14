@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PRIME X dark slate palette -->
+    <color name="slate_950">#020617</color>
+    <color name="slate_900">#0f172a</color>
+    <color name="slate_800">#1e293b</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_600">#475569</color>
+    <color name="slate_400">#94a3b8</color>
+    <color name="slate_200">#e2e8f0</color>
+    <color name="slate_100">#f1f5f9</color>
+
+    <color name="indigo_600">#4f46e5</color>
+    <color name="indigo_500">#6366f1</color>
+    <color name="indigo_400">#818cf8</color>
+    <color name="violet_500">#8b5cf6</color>
+
+    <color name="green_500">#22c55e</color>
+    <color name="amber_500">#f59e0b</color>
+    <color name="red_500">#ef4444</color>
+
+    <color name="bkash_pink">#E91E8C</color>
+    <color name="nagad_orange">#FF6600</color>
+    <color name="rocket_purple">#8B00FF</color>
+
+    <!-- Material theme -->
+    <color name="colorPrimary">@color/indigo_600</color>
+    <color name="colorPrimaryDark">@color/slate_950</color>
+    <color name="colorAccent">@color/indigo_500</color>
+    <color name="colorSurface">@color/slate_900</color>
+    <color name="colorBackground">@color/slate_950</color>
+    <color name="colorOnSurface">@color/slate_200</color>
+    <color name="colorOnBackground">@color/slate_100</color>
+</resources>

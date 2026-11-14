@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_bg"
+    android:padding="14dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Top row: method badge + amount + status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/tv_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bKash"
+            android:textColor="@color/slate_100"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="৳ 500.00"
+            android:textColor="@color/slate_100"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓ Synced"
+            android:textColor="@color/green_500"
+            android:textSize="11sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- TrxID -->
+    <TextView
+        android:id="@+id/tv_trx_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrxID: ABC123"
+        android:textColor="@color/indigo_400"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="2dp"/>
+
+    <!-- Sender + Time row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_sender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01XXXXXXXXX"
+            android:textColor="@color/slate_400"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/slate_600"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <!-- Server message -->
+    <TextView
+        android:id="@+id/tv_server_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/slate_600"
+        android:textSize="10sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Retry button -->
+    <Button
+        android:id="@+id/btn_retry"
+        style="@style/OutlineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="↻ Retry"
+        android:textSize="11sp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+-keep class com.primex.gateway.model.** { *; }
+-keep class com.primex.gateway.network.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.google.gson.** { *; }
+-keep class retrofit2.** { *; }
+-keep class okhttp3.** { *; }
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
+-keep interface com.primex.gateway.network.ApiService { *; }
